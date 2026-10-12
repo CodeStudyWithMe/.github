@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+<title id="t">CodeStudyWithMe</title><desc id="d">Uma janela de terminal com três bolinhas e o texto code study with me com um cursor piscando, e a frase estudar código junto.</desc><style>
+.ln{stroke-dasharray:6 10;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-32}}
+.cur{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.ln,.cur{animation:none}.ln{stroke-dasharray:none}}
+</style>
+<rect width="1280" height="320" rx="18" fill="#111111"/>
+<rect x="70" y="60" width="420" height="200" rx="14" fill="none" stroke="#6b6b6b" stroke-width="2"/><circle class="dt d0" cx="100" cy="90" r="9" fill="#c9a227"/><circle class="dt d1" cx="128" cy="90" r="9" fill="#f4f1ea"/><circle class="dt d2" cx="156" cy="90" r="9" fill="#6b6b6b"/>
+<g font-family="'Geist Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="30" fill="#f4f1ea"><text x="100" y="150"><tspan fill="#c9a227">$</tspan> git clone estudos</text><text x="100" y="200"><tspan fill="#c9a227">$</tspan> bora estudar<tspan class="cur" fill="#c9a227">_</tspan></text></g>
+<text x="560" y="150" font-family="'Geist Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-weight="700" font-size="64" fill="#f4f1ea">CodeStudy<tspan fill="#c9a227">WithMe</tspan></text>
+<text x="562" y="205" font-family="Geist, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" fill="#f4f1ea" opacity=".85">estudar código junto, no seu ritmo</text>
+<text x="562" y="245" font-family="'Geist Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" fill="#c9a227">learning to code together</text></svg>
